@@ -1,0 +1,28 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#Page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+#gridContainer {
+    display: grid;
+    grid-template-columns: repeat(15, 60px); 
+}
+
+
+.Case {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
